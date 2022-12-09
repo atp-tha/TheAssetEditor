@@ -4,7 +4,7 @@ on:
             - master
 jobs:
     test:
-        name: Build Application
+        name: Run Tests
         runs-on: windows-latest
         steps:
             - uses: actions/checkout@v3
