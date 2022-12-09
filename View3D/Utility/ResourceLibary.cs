@@ -139,7 +139,7 @@ namespace View3D.Utility
             {
                 using (MemoryStream stream = new MemoryStream(imageContent))
                 {
-                    using var image = Pfim.Pfim.FromStream(stream);
+                    using var image = Pfimage.FromStream(stream);
                     out_imageInfo.SetFromImage(image);
 
                     Texture2D texture = null;
